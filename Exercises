@@ -1,12 +1,51 @@
-#1 a
+#1a
 import calendar
 cal = calendar.TextCalendar() 
 cal.pryear(2012) 
 
-b
+#b
 import calendar
 cal = calendar.TextCalendar(3)      
 cal.pryear(2012)
 
-c
+#c
+import calendar
+cal = calendar.TextCalendar()
+n = int(input("Please enter month of birthday as a number (January = 1,etc): "))
+
+def birthdaymonth(n):
+    cal.prmonth(2012,n)
+
+birthdaymonth(n)
+
+#d
+import calendar
+d = calendar.LocaleTextCalendar(6, "Chinese")
+d.pryear(2012)
+
+#e
+#Returns True if year is a leap year or False is year is not a leap year. It expects a year as an arguement. 
+
+#2a
+#Lots
+
+#b
+import math
+x = 3.333
+print(math.ceil(x))
+#Prints out the largest integer value of x or same value. 
+
+import math
+x = 3.333
+print(math.floor(x))
+#Prints out the smallest integer value of x or same value.
+
+#c
+#We use the number to the power of 1/2 to get the squareroot of the number.
+
+#d
+#pi and e
+
+#3
+
 
