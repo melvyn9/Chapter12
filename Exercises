@@ -1,1 +1,12 @@
-#1
+#1 a
+import calendar
+cal = calendar.TextCalendar() 
+cal.pryear(2012) 
+
+b
+import calendar
+cal = calendar.TextCalendar(3)      
+cal.pryear(2012)
+
+c
+
