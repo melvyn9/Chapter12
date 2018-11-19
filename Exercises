@@ -99,4 +99,37 @@ def myreplace(old, new, s):
 myreplace(",",";",s)
 
 #8
+n = "??Da--dsadadsa and his mother went to the market to eat lunch and buy groceries"
+
+def cleanword(n):
+    for i in n:
+        if i == "!" or i == "?":
+            n -= "?","!"
+cleanword(n)
+
+def dashboard(n):
+    for i in n:
+        if i == "-":
+            print(n.remove("-"))
+dashboard(n)
+
+def extractwords(n):
+    print(n.split())
+extractwords(n)
+
+def wordcount(o,n):
+    counter = 0
+    for i in n.split():
+        if i == o:
+            counter += 1
+    print("There are", counter, "times the word", o, "has been mentioned")
+wordcount("is",n)
+
+def longest_word(n):
+    longestword = 0
+    for i in n.split():
+        if len(i) > longestword:
+            longestword += len(i)
+    print(longestword)
+longest_word(n)
 
