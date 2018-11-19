@@ -47,5 +47,56 @@ print(math.floor(x))
 #pi and e
 
 #3
+#Deepcopy constructs a new compound object and then, recursively, inserts copies into it of the objects found in the original. 
 
+#4
+import mymodule1
+import mymodule2
+
+print( (mymodule2.myage - mymodule1.myage) ==
+       (mymodule2.year - mymodule1.year)  )
+       
+#5
+import mymodule1
+import mymodule2
+
+print("My name is", __name__)
+
+if __name__ == "__main__":
+    print("This won't run if I'm  imported.")
+
+#6
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+
+#7
+s = "this, that, and some other thing"
+
+def myreplace(old, new, s):
+    s.split()
+    type(s.split())
+    print(new.join(s.split(old)))
+
+myreplace(",",";",s)
+
+#8
 
